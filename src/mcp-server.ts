@@ -10,7 +10,7 @@ const server = new McpServer({
 });
 
 // Initialize the API client
-const api = new OorlogsbronnenAPI();
+const api = new TenderNedAPI();
 
 // Start receiving messages on stdin and sending messages on stdout
 const transport = new StdioServerTransport();
